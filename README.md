@@ -22,7 +22,7 @@ Include `dist/skrollr.ie.min.js` after the core using conditional comments.
 Changelog
 ====
 
-0.1.0 (2013-05-18)
+1.0.0 (2013-05-18)
 -----
 
 * Moved skrollr-ie to a dedicated repo.
