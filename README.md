@@ -22,6 +22,11 @@ Include `dist/skrollr.ie.min.js` after the core using conditional comments.
 Changelog
 ====
 
+1.0.1 (2013-11-16)
+-----
+
+* Don't remove the opacity when it reaches 1 (#1, #3).
+
 1.0.0 (2013-05-18)
 -----
 
