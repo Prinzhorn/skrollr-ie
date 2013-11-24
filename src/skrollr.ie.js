@@ -26,7 +26,13 @@
 		//IE opacity
 		if(prop === 'opacity') {
 			style.zoom = 1;
-			style.filter = 'alpha(opacity=' + val * 100 + ')';
+
+			//Remove filter attribute in IE.
+			if(val === 1 && style.removeAttribute) {
+				style.removeAttribute('filter');
+			} else {
+				style.filter = 'alpha(opacity=' + val * 100 + ')';
+			}
 
 			return;
 		}
