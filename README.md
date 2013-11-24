@@ -22,6 +22,11 @@ Include `dist/skrollr.ie.min.js` after the core using conditional comments.
 Changelog
 ====
 
+1.0.2 (2013-11-24)
+-----
+
+* Reverted #3. Leaving the opacity filter on the element even with 100% keeps it from getting anti-aliasing (#1).
+
 1.0.1 (2013-11-16)
 -----
 
