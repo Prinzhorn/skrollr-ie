@@ -22,17 +22,22 @@ Include `dist/skrollr.ie.min.js` after the core using conditional comments.
 Changelog
 ====
 
+1.0.3 (2014-04-30)
+------------------
+
+* Fixed issues with opacity. The filter is now getting removed when opacity is 1 (#4).
+
 1.0.2 (2013-11-24)
------
+------------------
 
 * Reverted #3. Leaving the opacity filter on the element even with 100% keeps it from getting anti-aliasing (#1).
 
 1.0.1 (2013-11-16)
------
+------------------
 
 * Don't remove the opacity when it reaches 1 (#1, #3).
 
 1.0.0 (2013-05-18)
------
+------------------
 
 * Moved skrollr-ie to a dedicated repo.
